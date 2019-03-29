@@ -1,0 +1,131 @@
+body{
+	background: url("../img/Fondo.jpg")  no-repeat center fixed;
+}
+
+/*Estilos header*/
+div.header{
+	margin-top: 0px;
+	height: 200px;
+}
+
+div.header img.logo{
+	width: 60%;
+}
+
+div.header div.menu{
+	padding-top: 20px;
+}
+
+div.header div.menu a{
+	margin-right: 50px;
+}
+
+div.header div.slogan{
+	margin-top: 50px;
+	color: white;
+	font-style: oblique;
+}
+
+/*Estilos redes sociales*/
+div.redes a{
+	width: 80%;
+	margin-top: 20px;
+}
+
+div.redes a i.fa{
+	font-size: 30px;
+}
+
+/*Estilos imagenes*/
+div.imagenes img{
+	width: 95%;
+}
+
+div.imagenes div.relieve{
+	padding: 0px;
+	margin-top: 20px;
+}
+
+/*Estilos Blog*/
+div.blog{
+	background: white;
+}
+
+div.blog h2.titulo-blog{
+	color: #009688;
+}
+
+div.blog p{
+	font-size: 18px;
+}
+
+div.imagen-blog{
+	margin-top: 20px;
+}
+
+div.contenido-blog a.pulse{
+	margin-left: 20px;
+}
+
+/*Estilos autor*/
+div.autor{
+	background: white;
+}
+
+div.autor{
+	margin-left: 24px;
+	width: 22%;
+}
+
+div.autor p{
+	font-size: 16px;
+}
+
+div.autor img{
+	width: 80%;
+	margin-top: 20px;
+}
+
+div.autor p{
+	margin-bottom: 20px;
+}
+
+/*Queries*/
+
+@media (max-width: 700px){
+	div.header div.menu{
+		display: none;
+	}
+
+	div.redes{
+		text-align: center;
+	}
+
+	div.contenido, div.blog{
+		margin-bottom: 0px;
+	}
+
+	div.autor{
+	width: 100%;
+	margin-left: 0px;
+	}
+
+	div.autor img{
+		width: 60%;
+	}
+}
+
+@media (min-width: 700px) and (max-width: 1025px){
+	
+	div.header div.menu a{
+		margin-right: 20px;
+	}
+
+	div.header div.slogan{
+		margin-top: 30px;
+	}
+
+	div.autor{
+		margin-left: 10px;
+	}
+}
