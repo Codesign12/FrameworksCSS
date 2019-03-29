@@ -1,0 +1,176 @@
+body{
+	background: url("../img/Fondo.jpg") no-repeat fixed center; 
+}
+
+div.container{
+	background: rgba(232,232,231,.4);
+}
+
+h1, h2, h3, h4{
+	color: #e81518;
+}
+
+/*Estilos Header*/
+
+header h2{
+	text-align: right;
+}
+
+header p{
+	text-align: right;
+}
+
+/*Estilos Buscador*/
+
+div.buscador button{
+	height: 70%;
+}
+
+/*Estilos Menu*/
+div.menu ul{
+	margin-bottom: 1rem;
+	border: 1px solid #7fb7b0;
+	border-radius: 0;
+	background: #fefefe;
+	box-shadow: none;
+	overflow: hidden;
+	color: #0a0a0a;
+}
+
+div.menu li{
+	padding: 1rem;
+	border-bottom: 1px solid #7fb7b0;
+	color: #7fb7b0;
+}
+
+div.menu li:hover{
+	background-color: #7fb7b0;
+	color: white;
+}
+
+
+
+/*Estilos imagenes*/
+
+div.imagenes img{
+	width: 100%;
+	height: 60px;
+	margin-top: 20px;	
+}
+
+/*Estilos Historial*/
+
+div.historial{
+	margin-top: 20px;
+}
+
+div.historial ul.list-group {
+  margin-bottom: 1rem;
+  border: 1px solid #7fb7b0;
+  border-radius: 0;
+  background: #fefefe;
+  box-shadow: none;
+  overflow: hidden;
+  color: #0a0a0a;
+}
+
+div.historial li.list-group-item {
+  padding: 1rem;
+  border-bottom: 1px solid #7fb7b0;
+  color: #7fb7b0 ;
+}
+
+div.historial li.list-group-item:hover, .list-group-item:focus {
+  background-color: #7fb7b0;
+  color: white;
+}
+
+/*Estilos blog*/
+
+div.blog {
+	background: white;
+}
+
+div.blog h2.titulo-post{
+	margin-top: 20px;
+}
+
+div.blog p.texto-post1{
+	margin-top: 20px;
+}
+
+div.blog img{
+	width: 100%;
+}
+
+div.blog p{
+	text-align: justify;
+}
+
+div.blog label{
+	margin-bottom: 25px;
+}
+
+div.blog div.comentario2 .fondo-imagen{
+	background: white;
+}
+
+div.comntario1, div.comentario2{
+	background: rgba(127,183,176,.3) ;
+	border: 1px solid #7fb7b0;
+}
+
+div.blog .thumbnail{
+		margin-top: 20px;
+}
+
+/*Estilos Footer*/
+
+div.footer{
+	display: table;
+	height: 80px;
+	text-align: center;
+	background: #7fb7b0;
+	color: white;
+}
+
+div.footer p{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+/*Queries*/
+
+@media (max-width: 700px){
+
+	header h2{
+		text-align: center;
+		color: black;
+		margin-top: 20px;
+	}
+
+	div.menu{
+		display: none;
+	}
+
+	div.imagenes img{
+		width: 100%;
+		height: auto;
+	}
+
+	div.imagenes div.fila1img{
+		display: none;
+	}
+
+	div.historial{
+		display: none;
+	}
+
+	div.blog{
+		margin-top: 20px;
+	}
+
+	div.blog .thumbnail{
+		display: none;
+	}
+}
